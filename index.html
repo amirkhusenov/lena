@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./img/logo.svg" alt="Моя семья - мой космос">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Личный кабинет</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Конкурсы</a></li>
+                <li><input class="search" type="text" placeholder="Поиск"></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">Авторизация</a></li>
+                <li><a href="#">Регистрация</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="banner">
+                <img src="./img/banner.svg" alt="">
+            </div>
+            <div class="about-us">
+                <div class="about-us__info">
+                    <h3 class="about-us__title">Уважаемые друзья!</h3>
+                    <p class="text">
+                        Сегодня мы собрались здесь, чтобы отметить праздник,
+                        посвященный самому важному в нашей жизни – семье!
+                        Семья – это наша вселенная, наше небо, наши звезды,
+                        которые освещают путь и дарят тепло. В этот день мы
+                        хотим выразить благодарность нашим близким за
+                        любовь, поддержку и понимание.
+                    </p>
+                    <p class="text">
+                        Пусть мероприятие "Моя семья – мой космос" станет
+                        для нас возможностью еще раз ощутить ту особую
+                        связь, которая объединяет нас всех. Пусть каждый из
+                        вас найдет здесь радость общения, вдохновение и
+                        новые впечатления.
+                    </p>
+                    <p class="text">
+                        Желаю всем участникам замечательного настроения,
+                        ярких эмоций и незабываемых моментов! Пусть ваш
+                        семейный космос всегда будет полон счастья, гармонии
+                        и любви!
+                    </p>
+                    <p class="text">
+                        Добро пожаловать на наш праздник
+                    </p>
+                </div>
+                <div class="about-us__img">
+                    <img src="./img/about-us.png" alt="">
+                </div>
+            </div>
+            <div class="login-box">
+                <h2 class="login-box__title">Авторизация</h2>
+                <form>
+                    <div class="user-box">
+                        <input type="email" name="" required="" placeholder="Ваш Email">
+                    </div>
+                    <div class="user-box">
+                        <input type="password" name="" required="" placeholder="Пароль">
+                    </div>
+                    <div class="login-btns">
+                        <button class="login-btn">Войти</button>
+                        <button class="restore-btn">Восстановить пароль</button>
+                    </div>
+                </form>
+            </div>
+            <div class="popular competitions">
+                <h1 class="title">Популярные конкурсы:</h1>
+                <div class="card-container">
+                    <div class="card">
+                        <h3 class="card-title">Семейный портрет</h3>
+                        <img src="./img/family.png" alt="Семейный портрет" class="card-image">
+                        <h2 class="card-about">Описание</h2>
+                        <p class="card-description">
+                            Каждая команда получает набор материалов для творчества (бумага, краски, карандаши).
+                            Задача команды — нарисовать семейный портрет, который отражает их уникальную семью.
+                        </p>
+                        <p class="card-info"><strong>Время:</strong> 15 минут</p>
+                        <p class="card-rating">Рейтинг: ⭐⭐⭐⭐</p>
+                        <button class="card-button">Подробнее</button>
+                    </div>
+
+                    <div class="card">
+                        <h3 class="card-title">Звездная карта</h3>
+                        <img src="./img/karta.png" alt="Звездная карта" class="card-image">
+                        <h2 class="card-about">Описание</h2>
+                        <p class="card-description">
+                            Команды получают листы бумаги и маркеры. Их задача — нарисовать карту звездного неба,
+                            где каждая звезда представляет одного члена семьи.
+                        </p>
+                        <p class="card-info"><strong>Время:</strong> 20 минут</p>
+                        <p class="card-rating">Рейтинг: ⭐⭐⭐⭐</p>
+                        <button class="card-button">Подробнее</button>
+                    </div>
+
+                    <div class="card">
+                        <h3 class="card-title">Музыкальный космос</h3>
+                        <img src="./img/music.png" alt="Музыкальный космос" class="card-image">
+                        <h2 class="card-about">Описание</h2>
+                        <p class="card-description">
+                            Участникам предлагается вспомнить и исполнить песню, которая имеет особое значение для их
+                            семьи.
+                        </p>
+                        <p class="card-info"><strong>Время:</strong> 5 минут</p>
+                        <p class="card-rating">Рейтинг: ⭐⭐⭐⭐⭐</p>
+                        <button class="card-button">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="competitions">
+                <h1 class="title">Конкурсы:</h1>
+                <div class="card-container">
+                    <div class="card">
+                        <h3 class="card-title">Семейный портрет</h3>
+                        <img src="./img/family.png" alt="Семейный портрет" class="card-image">
+                        <h2 class="card-about">Описание</h2>
+                        <p class="card-description">
+                            Каждая команда получает набор материалов для творчества (бумага, краски, карандаши).
+                            Задача команды — нарисовать семейный портрет, который отражает их уникальную семью.
+                        </p>
+                        <p class="card-info"><strong>Время:</strong> 15 минут</p>
+                        <p class="card-rating">Рейтинг: ⭐⭐⭐⭐</p>
+                        <button class="card-button">Подробнее</button>
+                    </div>
+
+                    <div class="card">
+                        <h3 class="card-title">Звездная карта</h3>
+                        <img src="./img/karta.png" alt="Звездная карта" class="card-image">
+                        <h2 class="card-about">Описание</h2>
+                        <p class="card-description">
+                            Команды получают листы бумаги и маркеры. Их задача — нарисовать карту звездного неба,
+                            где каждая звезда представляет одного члена семьи.
+                        </p>
+                        <p class="card-info"><strong>Время:</strong> 20 минут</p>
+                        <p class="card-rating">Рейтинг: ⭐⭐⭐⭐</p>
+                        <button class="card-button">Подробнее</button>
+                    </div>
+
+                    <div class="card">
+                        <h3 class="card-title">Музыкальный космос</h3>
+                        <img src="./img/music.png" alt="Музыкальный космос" class="card-image">
+                        <h2 class="card-about">Описание</h2>
+                        <p class="card-description">
+                            Участникам предлагается вспомнить и исполнить песню, которая имеет особое значение для их
+                            семьи.
+                        </p>
+                        <p class="card-info"><strong>Время:</strong> 5 минут</p>
+                        <p class="card-rating">Рейтинг: ⭐⭐⭐⭐⭐</p>
+                        <button class="card-button">Подробнее</button>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-title">Космическая ракета</h3>
+                        <img src="./img/raketa.png" alt="" class="card-image">
+                        <h2 class="card-about">Описание</h2>
+                        <p class="card-description">
+                            Каждой команде выдается большой лист бумаги и
+                            маркеры. Участники должны вместе создать рисунок
+                            космической ракеты, которая символизирует их
+                            семью. Каждый член семьи рисует свою часть ракеты
+                            (например, корпус, иллюминатор, двигатели),
+                            а затем все части соединяются в одно целое. 
+                        </p>
+                        <p class="card-info"><strong>Время:</strong> 5 минут</p>
+                        <p class="card-rating">Рейтинг: ⭐⭐⭐⭐⭐</p>
+                        <button class="card-button">Подробнее</button>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-title">Семейная легенда</h3>
+                        <img src="./img/family-1.png" alt="" class="card-image">
+                        <h2 class="card-about">Описание</h2>
+                        <p class="card-description">
+                             Командам предлагается придумать и рассказать
+                            семейную легенду или историю, которая могла бы
+                            стать частью их семейной мифологии. История
+                            может быть связана с реальными событиями или
+                            полностью выдуманной, но она должна отражать
+                            уникальные особенности и ценности конкретной семьи.
+                        </p>
+                        <p class="card-info"><strong>Время:</strong> 5 минут</p>
+                        <p class="card-rating">Рейтинг: ⭐⭐⭐⭐⭐</p>
+                        <button class="card-button">Подробнее</button>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-title">Фотокосмос</h3>
+                        <img src="./img/family-2.png" alt="" class="card-image">
+                        <h2 class="card-about">Описание</h2>
+                        <p class="card-description">
+                            Каждая команда получает задание сделать серию
+                            фотографий, которые отражают их семейные традиции,
+                            интересы и увлечения. Фотографии могут быть как
+                            постановочными, так и спонтанными, главное – чтобы
+                            они передавали атмосферу семьи.
+                        </p>
+                        <p class="card-info"><strong>Время:</strong> 5 минут</p>
+                        <p class="card-rating">Рейтинг: ⭐⭐⭐⭐⭐</p>
+                        <button class="card-button">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="search-events">
+                <h2 class="title">Поиск конкурса</h2>
+                <input class="search-events__input" type="text" placeholder="Название конкурса">
+            </div>
+            <div class="reviews-section">
+                <h2 class="reviews-title">Отзывы</h2>
+                <div class="reviews-container">
+                    <!-- First Review -->
+                    <div class="review-card">
+                        <div class="review-info">
+                            <img src="./img/avatar.webp" alt="Avatar" class="review-avatar" width="80">
+                            <div class="review-info__left">
+                                <p class="review-author">Алексей</p>
+                                <p class="review-date">16.12.24</p>
+                            </div>
+                        </div>
+                        <p class="review-text">"Приехав на праздник, я был приятно удивлён! Каждая деталь была тщательно
+                            продумана, от красивых декораций до интерактивных заданий. Мы с Артёмом с удовольствием
+                            приняли в нём участие. Сын был от счастья, а я вновь погрузился в атмосферу детских
+                            космических приключений. Огромное спасибо за замечательный праздник!"</p>
+                    </div>
+
+                    <!-- Second Review -->
+                    <div class="review-card">
+                        <div class="review-info">
+                            <img src="./img/avatar.webp" alt="Avatar" class="review-avatar" width="80">
+                            <div class="review-info__left">
+                                <p class="review-author">Алексей</p>
+                                <p class="review-date">16.12.24</p>
+                            </div>
+                        </div>
+                        <p class="review-text">"Мы посетили праздник 'Моя семья - мой космос', и это было просто
+                            замечательно! Организация на высшем уровне: много интересных активностей для детей и
+                            взрослых, яркие декорации и дружелюбная атмосфера."</p>
+                    </div>
+
+                    <!-- Third Review -->
+                    <div class="review-card">
+                        <div class="review-info">
+                            <img src="./img/avatar.webp" alt="Avatar" class="review-avatar" width="80">
+                            <div class="review-info__left">
+                                <p class="review-author">Алексей</p>
+                                <p class="review-date">16.12.24</p>
+                            </div>
+                        </div>
+                        <p class="review-text">"Чудесный праздник, наполненный интересными развлечениями и потрясающей
+                            атмосферой. Наша семья была в восторге, это был незабываемый день!"</p>
+                    </div>
+                </div>
+            </div>
+            <div class="subscription-form-section">
+                <div class="form-container">
+                    <div class="form-image">
+                        <img src="./img/raketa-2.png" alt="Красная ракета">
+                    </div>
+                    <div class="form-content">
+                        <h2 class="form-title">Новости мероприятия</h2>
+                        <form>
+                            <input type="email" placeholder="Email">
+                            <div class="checkbox-container">
+                                <input type="checkbox" id="consent">
+                                <label for="consent">Согласие на обработку персональных данных</label>
+                            </div>
+                            <button class="subscribe-btn" type="submit">Подписаться</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__contacts">
+                    <a href="#" class="footer__contacts-link">+79279999999</a>
+                    <a href="#" class="footer__contacts-link">Email: cosmosfamily163@gmail.com</a>
+                </div>
+                <nav class="footer__nav">
+                    <a href="" class="footer__nav-link">Главная</a>
+                    <a href="" class="footer__nav-link">Регистрация</a>
+                    <a href="" class="footer__nav-link">Конкурс</a>
+                    <a href="" class="footer__nav-link">Личный кабинет</a>
+                    <a href="" class="footer__nav-link">Страница не найдена</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
